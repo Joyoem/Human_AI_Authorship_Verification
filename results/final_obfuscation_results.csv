@@ -1,0 +1,9 @@
+Attack,Detector,AUC,Type
+Original,Char_Detector (3-5 gram),0.9459,None
+Original,Word_Detector (1-2 gram),0.9617,None
+GPT4_Paraphrase,Char_Detector (3-5 gram),0.7726,Semantic
+GPT4_Paraphrase,Word_Detector (1-2 gram),0.7965,Semantic
+Back_Translate,Char_Detector (3-5 gram),0.8686,Structural
+Back_Translate,Word_Detector (1-2 gram),0.8898,Structural
+Homoglyph,Char_Detector (3-5 gram),0.9331,Physical
+Homoglyph,Word_Detector (1-2 gram),0.9347,Physical
