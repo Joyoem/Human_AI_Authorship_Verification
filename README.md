@@ -15,6 +15,7 @@ This project investigates the adversarial impact of Large Language Models (LLMs)
 - **`pair3_imitation`**: The **core experimental group** focusing on explicit stylistic imitation.
   - **Medium**: Sentence-level polishing.
   - **Hard**: Token-level polishing designed to disrupt stylometric fingerprints.
+- The **MULTITUDE** adversarial framework is a key component of our robustness stress test, covering semantic, structural, and physical attacks, but the complete MULTITUDE corpus exceeds GitHub's standard file upload limits(100M), so the raw CSV files for MULTITUDE are not included in this `/data` folder, it can be accessed via **Zenodo**: [https://zenodo.org/records/13846588](https://zenodo.org/records/13846588). Sorry for the inconvenient!
 
 ## Key Findings
 Our results demonstrate a significant performance collapse in authorship verification as the attack granularity increases.
