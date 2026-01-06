@@ -8,6 +8,8 @@ This project investigates the adversarial impact of Large Language Models (LLMs)
 - **`extract_hc3.py`**: Separates the HC3 Plus dataset into `human.jsonl` and `ai.jsonl` based on ground-truth labels for QA and Semantic-Invariant (SI) tasks.
 - **`extract_mixset_original_revised.py`**: A preprocessing script that extracts paired human-original and AI-revised texts from MixSet, categorizing them by model (Llama/GPT-4) and attack type.
 - **`evaluate.py`**: The main evaluation pipeline. It extracts TF-IDF Char-ngram features, trains a Logistic Regression classifier, and computes metrics including AUC, F1-score, and Brier Score.
+- **`appendix_multitude.py`**: script for robustness testing. It compares the performance of various detectors across multi-dimensional adversarial scenarios (Semantic, Structural, and Physical).
+- **`result_visualization.py`**: A visualization suite used to generate academic figures.
 
 ### Dataset Organization (`/data`)
 - **`pair1_free`**: Contains "Free Generation" samples (HC3-QA/MixSet-Rewrite) where AI has minimal constraints, serving as the detection baseline.
